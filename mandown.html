@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <!--
     Landed by HTML5 UP
     html5up.net | @n33co
@@ -29,38 +29,22 @@
 <body>
 
     <!-- Header -->
-    <header id="header">
+    <header id="header" class="skel-layers-fixed">
         <h1 id="logo"><a href="index.html">Olivia Maciejewska</a></h1>
         <nav id="nav">
             <ul>
                 <li><a href="index.html">About Me</a></li>
                 <li>
-                    <a href="">Games</a>
+                    <a href="">Game Jams</a>
                     <ul>
                         <li><a href="gameoff.html">Game Off Game Jam 2020</a></li>
                         <li><a href="diaper-change.html">Diaper Change</a></li>
                         <li><a href="mandown.html">Man Down</a></li>
-                        <li>
-                            <a href="">GD50</a>
-                            <ul>
-                                <li><a href="pong.html">Pong</a></li>
-                                <li><a href="#">Flappy Bird</a></li>
-                                <li><a href="#">Breakout</a></li>
-                                <li><a href="#">Match 3</a></li>
-                                <li><a href="#">Mario</a></li>
-                                <li><a href="#">Zelda</a></li>
-                                <li><a href="#">Angry Birds</a></li>
-                                <li><a href="#">Pokemon</a></li>
-                                <li><a href="#">Helicopter</a></li>
-                                <li><a href="#">Dreadhalls</a></li>
-                                <!--<li><a href="#">Portal</a></li>-->
-
-                            </ul>
-                        </li>
                     </ul>
                 </li>
+                <li><a href="gd50.html">GD50</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <!--<li><a href="#" class="button special">Sign Up</a></li>-->
+
             </ul>
         </nav>
     </header>
@@ -69,27 +53,68 @@
     <div id="main" class="wrapper style1">
         <div class="container">
             <header class="major">
-                <h2>No Sidebar</h2>
-                <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+                <h2>Man Down - Extra Credits Game Jam #6 Submission</h2>
+                <p>Core and C#</p>
             </header>
+            <div class="row 150%">
+                <div class="8u 12u$(medium)">
 
-            <!-- Content -->
-            <section id="content">
-                <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-                <h3>Dolore Amet Consequat</h3>
-                <p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam cubilia adipiscing interdum aliquet aliquet placerat cubilia accumsan cep ante nullam adipiscing tortor odio. Iaculis adipiscing accumsan nascetur in cras. Lacinia placerat.</p>
-                <p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique faucibus magna adipiscing aliquet blandit nisi dolor accumsan nascetur lorem. Vis enim. Curae. Mi arcu vis aliquam ipsum non accumsan ac mi faucibus amet eu accumsan erat interdum semper accumsan. Eu sagittis tellus accumsan neque lorem penatibus in porttitor. Vivamus commodo curae. Condimentum lobortis praesent id ac lorem. Lorem vis ipsum dolor feugiat consequat dolore adipiscing.</p>
-                <h3>Sed Magna Ornare</h3>
-                <p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus. In accumsan lorem nunc ultrices a ac eu accumsan ac id nullam. Nec lobortis. Faucibus. Mi commodo laoreet arcu at non mi lacinia aliquet non lobortis phasellus accumsan nascetur varius. Integer orci porttitor eu faucibus aliquet faucibus ac accumsan adipiscing accumsan odio. Ut adipiscing.</p>
-                <ul>
-                    <li>Faucibus orci lobortis ac adipiscing integer.</li>
-                    <li>Col accumsan arcu mi aliquet placerat.</li>
-                    <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-                    <li>Blandit massa non blandit tempor interdum.</li>
-                    <li>Lacinia mattis arcu nascetur lobortis.</li>
-                </ul>
-            </section>
+                    <!-- Content -->
+                    <section id="content">
+                        <a href="#" class="image fit"><img src="images/dchange.gif" alt="" /></a>
+                        <h3>The Theme: Take Care</h3>
 
+                        <p>We decided for this game jam to take the theme literally. Change: diaper change. So we made a 2D infinate sidescroller where you are a baby running away from their Mom's diaper changing grasp.</p>
+                        <p>Working on a team of two, my partner designed all the art (except the baby scribbles on the wall) and together we implemented the code.</p>
+                        <p>This project was our first game jam, and we had a week to complete it. Using Love2D, we built the game in its entirety, other than the use of a few libraries. It definitely taught me the importance of a few things I thought were amusing: don't divide by 3 as repeating numbers are NOT a coder's friend. And always have someone else play test. </p>
+                        <p>I was so focused on testing health and intentionally running into obstacles, that I failed to realize that the toys never generated along the top and bottom paths. It wasn't until my partner tried the game that we realized you could play forever without ever hitting an obstacle. I will never underestimate the importance of another pair of eyes again.</p>
+                        <h3>About the Game</h3>
+
+                        <p>Imagine this: you're a baby, you're running through your toys, and your diaper's full. Life is fantastic. You're peaking. But, evil lurks behind you and wishes to terminate your sweet paradise.</p>
+                        <p> You will be pushed to your limits as you must bob and weave through an endless amount of toys and dodge your enemy's unrelenting baby-grabbing attacks. Will you have what it takes to keep your diaper full? Or will you suffer the worst fate of all... A diaper change?</p>
+                        <ul>
+                            <li>2D infinite sidescroller.</li>
+                            <li>You're a cute little baby dodging his moms arms and avoiding ranomized obstacles.</li>
+                            <li>It keeps getting faster. Oh Sh*t!</li>
+                        </ul>
+                    </section>
+
+                </div>
+                <div class="4u$ 12u$(medium)">
+
+                    <!-- Sidebar -->
+                    <section id="sidebar">
+                        <section>
+                            <h3>Our Submission</h3>
+                            <p>Created by a team of 2, using Lua and Love2D. Currently available for Windows on itch.io</p>
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="https://pootmoop-studio.itch.io/diaperchange" class="button">Check Out Our Submission Here</a></li>
+                                </ul>
+                            </footer>
+                        </section>
+                        <hr />
+                        <section>
+                            <!--<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>-->
+                            <h3>The Code</h3>
+                            <p>Some of the things I worked on:</p>
+                            <ul>
+                                <li>Randomization of obstacles and the mom's arm grabs.</li>
+                                <li>Implementation of health and health increases from baby bottles.</li>
+                                <li>Baby controls including dodge.</li>
+                                <li>Increasing speed of obstacles and scroll, ensuring they speed up at the same rate.</li>
+                                <li>Scoring based on time.</li>
+                            </ul>
+                            <footer>
+                                <ul class="actions">
+                                    <li><a href="https://github.com/oliviamaciejewska/my-first-game-jam" class="button">Check Our Our Repository</a></li>
+                                </ul>
+                            </footer>
+                        </section>
+                    </section>
+
+                </div>
+            </div>
         </div>
     </div>
 
