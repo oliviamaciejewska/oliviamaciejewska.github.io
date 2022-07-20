@@ -308,6 +308,14 @@
 		position: relative;
 		text-align: center;
 	}
+		header.major::before {
+			background: #e44c65;
+			content: '';
+			display: inline-block;
+			height: 0.7em;
+			max-width: 20em;
+			width: 100%;
+		}
 
 		header.major:after {
 			background: #e44c65;
