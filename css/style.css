@@ -1603,14 +1603,14 @@
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
-				margin-left: 3em;
+				height: 23em;
+				margin-left: 5em;
 				vertical-align: middle;
 				width: 18em;
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					border-radius: 200%;
 					display: block;
 					width: 100%;
 				}
