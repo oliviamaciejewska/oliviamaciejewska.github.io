@@ -8,6 +8,12 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		background: #e44c65;
+		content: '';
+		display: inline-block;
+		height: 0.7em;
+		max-width: 20em;
+		width: 150%;
 	}
 
 /* Container */
